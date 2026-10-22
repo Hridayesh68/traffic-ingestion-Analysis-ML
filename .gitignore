@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Parquet data and trained Spark models
+output/traffic_cleaned.parquet/
+output/models/rf_traffic_pipeline/
+output/models/test_predictions.parquet/
+
+# Spark runtime & warehouse
+.spark-warehouse/
+metastore_db/
+derby.log
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# OS specific
+.DS_Store
+Thumbs.db

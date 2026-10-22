@@ -1,0 +1,3 @@
+Model,RMSE,MAE,R2
+Baseline Linear Regression,1759.91,1540.79,0.1997
+"Random Forest Regressor (Trees=60, Depth=12)",583.51,382.78,0.912

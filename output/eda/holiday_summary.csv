@@ -1,0 +1,3 @@
+holiday_classification,observation_count,avg_traffic,std_traffic,min_traffic,max_traffic
+Regular Day,48126,3262.65,1986.36,0,7280
+Holiday,61,865.44,291.03,455,1538
