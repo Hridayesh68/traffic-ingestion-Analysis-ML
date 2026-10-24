@@ -73,3 +73,5 @@ env/
 # ──────────────────────────────────────────────
 .DS_Store
 Thumbs.db
+
+data/traffic_data_cleaned.csv
