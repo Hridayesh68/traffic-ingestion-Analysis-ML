@@ -1,27 +1,75 @@
-# Byte-compiled / optimized / DLL files
+# ──────────────────────────────────────────────
+# Python
+# ──────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Large Parquet data and trained Spark models
-output/traffic_cleaned.parquet/
-output/models/rf_traffic_pipeline/
-output/models/test_predictions.parquet/
+# ──────────────────────────────────────────────
+# Dataset files
+# ──────────────────────────────────────────────
+data/
+*.csv
+*.parquet
+*.json
+*.xlsx
+*.xls
 
+# ──────────────────────────────────────────────
+# Documents (Word, PDF, etc.)
+# ──────────────────────────────────────────────
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.odt
+*.odp
+*.ods
+
+# Windows Zone Identifier sidecar files
+*:Zone.Identifier
+
+# LibreOffice / Word temp lock files
+~$*
+
+# ──────────────────────────────────────────────
+# Docs folder (PDFs, reports, images used in docs)
+# ──────────────────────────────────────────────
+docs/*.pdf
+docs/*.doc
+docs/*.docx
+docs/images pdf/
+docs/lpu_logo-removebg-preview.png
+
+# ──────────────────────────────────────────────
+# Output / generated artefacts
+# ──────────────────────────────────────────────
+output/
+pdf_template/
+
+# ──────────────────────────────────────────────
 # Spark runtime & warehouse
+# ──────────────────────────────────────────────
 .spark-warehouse/
 metastore_db/
 derby.log
 *.log
 
-# Jupyter Notebook checkpoints
+# ──────────────────────────────────────────────
+# Jupyter
+# ──────────────────────────────────────────────
 .ipynb_checkpoints/
 
+# ──────────────────────────────────────────────
 # Virtual environments
+# ──────────────────────────────────────────────
 venv/
 env/
 .env/
 
+# ──────────────────────────────────────────────
 # OS specific
+# ──────────────────────────────────────────────
 .DS_Store
 Thumbs.db
